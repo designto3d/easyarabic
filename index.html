@@ -9,11 +9,11 @@
   <meta property="og:description" content="Live 1-1 & group Arabic classes, Quranic Arabic, Tajweed and a free video course." />
   <meta name="theme-color" content="#0B1120" />
   <script>
-    /* pick the saved theme, else follow the device setting — runs before paint to avoid a flash */
+    /* use the visitor's saved theme, else dark — runs before paint to avoid a flash */
     (function () {
       var t = null;
       try { t = localStorage.getItem("ea-theme"); } catch (e) {}
-      if (t !== "light" && t !== "dark") t = matchMedia("(prefers-color-scheme: light)").matches ? "light" : "dark";
+      if (t !== "light" && t !== "dark") t = "dark";
       document.documentElement.setAttribute("data-theme", t);
     })();
   </script>

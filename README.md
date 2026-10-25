@@ -1,6 +1,6 @@
 # Easy Arabic website — setup guide
 
-The site has a **light and dark mode**. Visitors switch with the sun/moon button in the top bar; the first visit follows their device setting, and their choice is remembered. Dark colours live in `css/style.css`, light colours in `css/theme-light.css`.
+The site has a **light and dark mode**. Visitors switch with the sun/moon button in the top bar; it starts in dark mode, and their choice is remembered. Dark colours live in `css/style.css`, light colours in `css/theme-light.css`.
 
 Everything you need to change is in **`js/config.js`**. Open it in Notepad and edit the text between the quotes.
 
